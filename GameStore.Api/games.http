@@ -1,0 +1,31 @@
+GET http://localhost:5227/games
+
+###
+GET http://localhost:5227/games/4
+
+
+###
+POST http://localhost:5227/games
+Content-Type: application/json
+
+{
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "genre": "Action-adventure",
+    "price": 59.99,
+    "releaseDate": "2017-03-03"
+}
+
+###
+PUT http://localhost:5227/games/1
+Content-Type: application/json
+
+{
+    "name": "Sonic X Shadow Generations",
+    "genre": "Adventure",
+    "price": 59.99,
+    "releaseDate": "2025-07-10"
+}
+
+
+###
+DELETE http://localhost:5227/games/1
