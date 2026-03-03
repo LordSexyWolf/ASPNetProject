@@ -1,0 +1,40 @@
+## --- .NET / Visual Studio ---
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.docstates
+
+## --- Archivos de usuario y caché ---
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## --- NuGet ---
+# No subas los paquetes, se restauran al compilar
+node_modules/
+packages/
+*.nupkg
+
+## --- Resultados de Pruebas (Unit Tests) ---
+TestResults/
+*.trx
+*.coverage
+
+## --- Archivos de publicación (Publish) ---
+publish/
+*.pfx
+*.publishsettings
+
+## --- Archivos del Sistema / OS ---
+.DS_Store
+Thumbs.db
+
+## --- Archivos de configuración sensible (Opcional) ---
+# Descomenta si usas secretos locales que no deben ir a la nube
+# appsettings.Development.json
+# secrets.json
