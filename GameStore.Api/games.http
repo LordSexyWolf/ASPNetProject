@@ -9,9 +9,9 @@ POST http://localhost:5227/games
 Content-Type: application/json
 
 {
-    "name": "The Legend of Zelda: Breath of the Wild",
+    "name": "",
     "genre": "Action-adventure",
-    "price": 59.99,
+    "price": 459.99,
     "releaseDate": "2017-03-03"
 }
 
@@ -21,8 +21,8 @@ Content-Type: application/json
 
 {
     "name": "Sonic X Shadow Generations",
-    "genre": "Adventure",
-    "price": 59.99,
+    "genre": "",
+    "price": 4459.99,
     "releaseDate": "2025-07-10"
 }
 
